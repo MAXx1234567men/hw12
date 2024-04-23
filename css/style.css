@@ -1,0 +1,37 @@
+:root {
+    --logo-color: rgb(33, 150, 243);
+    --logo-col:rgb(0, 0, 0);
+    --main:rgb(47, 48, 58);
+    --footer:rgb(255, 255, 255);
+    --foot:rgba(255, 255, 255, 0.6);
+    --button:rgb(245, 244, 250);
+    }
+    .header-name {
+        font-family: "raleway";
+        font-size: 25px;
+    }
+    .footer-name {
+        font-family: "raleway";
+        font-size: 25px;
+    }
+    body {
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: calc(24 / 14);
+        color: var(--black-color);
+    }
+.our-team :nth-child(4) {
+    margin-right: 30px;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.our-work :nth-child(3) {
+    margin-right: 30px;
+}
+.portfolio-item:nth-child(3n) {
+    margin-left: 38px;
+    margin-bottom: 30px;
+}
