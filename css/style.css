@@ -25,9 +25,13 @@
     margin-right: 30px;
 }
 .container {
-    width: 1170px;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
+    outline: 1px solid red;
 }
+
 .our-work :nth-child(3) {
     margin-right: 30px;
 }
